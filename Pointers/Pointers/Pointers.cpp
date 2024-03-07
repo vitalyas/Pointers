@@ -26,4 +26,6 @@ int main()
 	{
 		players[i].Print();
 	}
+
+	delete[] players;
 }
